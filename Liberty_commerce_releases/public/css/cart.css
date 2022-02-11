@@ -1,0 +1,197 @@
+/* Carts styles */
+
+/* Permet d'enlever les css qui pourraient faire conflits */
+.unset 
+{
+    all:unset;
+}
+.unset:hover
+{
+    all:unset;
+}
+
+/* responsive */
+@media all and (min-width:1px) and (max-width:426px)
+{
+    .Cart
+    {    
+        width: 70%;
+        height: 85%;
+        background-color: #ffffff;
+        border-radius: 20px;
+        box-shadow: 0px 25px 40px #1687d933;
+    }
+}
+
+/* Panier container */
+.Cart
+    {    
+        width: 70%;
+        height: 85%;
+        background-color: #ffffff;
+        border-radius: 20px;
+        box-shadow: 0px 25px 40px #1687d933;
+        overflow: hidden;
+    }
+/* header du panier */
+.Header
+{
+    margin: auto;
+    width: 90%;
+    height: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+/* Main à l'intérieur du conteneur */
+.Corp
+{
+    height: 65%;
+    overflow: auto;
+    overflow-x: hidden;
+}
+/* titre du header */
+.Heading
+{
+    font-size: 20px;
+    color: #2F3841;
+}
+.Action
+{
+    font-size: 14px;
+    color: #E44C4C;
+    cursor: pointer;
+    border-bottom: 1px solid #E44C4C;
+}
+/* Produits */
+.Cart-Items
+{
+    margin: auto;
+    width: 90%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Cart hr
+{
+    width: 66%;
+    float: right;
+    margin-right: 5%;
+}
+/* Affichage image */
+.Image-box
+{
+    height:120px;
+    width: 15%;
+    text-align: center;
+}
+.Image-box img
+{
+    height:100px;
+}
+/* A propos de */
+.About
+{
+    height: 100%;
+}
+/* Titre du produit */
+.Title
+{
+    padding-top: 12px;
+    line-height: 15px;
+    font-size: 20px;
+    color: #202020;
+}
+/* Compte */
+.Counter
+{
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Count
+{
+    font-size: 20px;
+
+    font-weight: 900;
+    color: #202020;
+}
+/* Style des boutons */
+.Btn
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 900;
+    color: #202020;
+    cursor: pointer;
+}
+/* footer du panier */
+.Checkout
+{
+    float: right;
+    margin-right: 5%;
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+}
+ /* style de la somme */
+.Total-amount
+{
+    font-size: 36px;
+    font-weight: 900;
+    color: #202020;
+    order:1;
+}
+.Total
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    order:2;
+}
+/* nbr d'éléments */
+.Items
+{
+    font-size: 16px;
+    font-weight: 500;
+    color: #909090;
+    line-height: 10px;
+}
+/* boutton paiement */
+.Button
+{
+    text-align: center;
+    margin-top: 5px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    background: linear-gradient(to bottom right, #B8D7FF, #8EB7EB);
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: #202020;
+}
+.Button:hover
+{
+    text-align: center;
+    margin-top: 5px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    background: linear-gradient(to bottom right, #B8D7FF, #8EB7EB);
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: #202020;
+}
